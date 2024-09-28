@@ -5,19 +5,16 @@
     </colgroup>
     <tbody>
         <tr>
+            <th scope="col">AE Titel</th>
             <th scope="col">Name</th>
-            <th scope="col">Date</th>
         </tr>
         <tr>
             <td>
-                <span style="color: rgb(23,43,77);"><at:var at:name="vName"/></span>
+                <span style="color: rgb(23,43,77);"><at:var at:name="title"/></span>
             </td>
             <td>
-                <span style="color: rgb(23,43,77);"><ac:placeholder>Enter today's date here</ac:placeholder></span>
+                <span style="color: rgb(23,43,77);"><at:var at:name="vName"/></span>
             </td>
         </tr>
     </tbody>
 </table>
-<p>
-    <br />
-</p>

@@ -1,0 +1,18 @@
+{namespace ModalityList.Blueprints.Form}
+/**
+* A form that accepts a person's name
+*/
+{template .page1Form}
+    <form action="#" method="post" class="aui">
+      <fieldset>
+        <div class="field-group">
+            <label for="title">{getText('modalitylist.blueprint.form.label.title.vName')}</label>
+            <input id="test" class="text" type="text" name="title">
+        </div>
+        <div class="field-group">
+            <label for="author">Forfatter:</label>
+            <input id="author" class="text" type="text" name="author">
+        </div>
+      </fieldset>
+    </form>
+{/template}

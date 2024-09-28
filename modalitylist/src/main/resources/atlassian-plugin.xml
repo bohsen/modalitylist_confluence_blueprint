@@ -13,28 +13,48 @@
     <!-- add our web resources -->
     <web-resource key="modalitylist-resources" name="modalitylist Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
+        <dependency>com.atlassian.confluence.plugins.confluence-create-content-plugin:resources</dependency>
+
+        <transformation extension="soy">
+            <transformer key="soyTransformer">
+                <functions>com.atlassian.confluence.plugins.soy:soy-core-functions
+                </functions>
+            </transformer>
+        </transformation>
 
         <resource type="download" name="modalitylist.css" location="/css/modalitylist.css" />
         <resource type="download" name="modalitylist.js" location="/js/modalitylist.js" />
+        <resource type="download" name="modalitylist.soy.js" location="/soy/modalitylist.soy" />
         <resource type="download" name="images/" location="/images" />
 
-        <context>modalitylist</context>
+        <context>create-content</context>
     </web-resource>
-    
+
     <!-- Blueprint -->
-    <blueprint key="modalitylist-blueprint" content-template-key="modalitylist-template" index-key="modalitet"
-        i18n-name-key="my.blueprint.name" />
+    <blueprint key="modalitylist-blueprint" content-template-key="modalitylist-template"
+        index-key="modalitet"
+        i18n-name-key="modalitylist.blueprint.name"
+        create-result="view">
+        <dialog-wizard key="modalitylist-wizard">
+            <dialog-page id="page1Id"
+                template-key="ModalityList.Blueprints.Form.page1Form"
+                title-key="modalitylist.blueprint.wizard.page1.title"
+                description-header-key="modalitylist.blueprint.wizard.page1.desc.header"
+                description-content-key="modalitylist.blueprint.wizard.page1.desc.content"
+                last="true" />
+        </dialog-wizard>
+    </blueprint>
 
     <!-- Template for Blueprint -->
-    <content-template key="modalitylist-template" i18n-name-key="my.blueprint.title">
+    <content-template key="modalitylist-template" i18n-name-key="modalitylist.title">
         <resource name="template" type="download" location="/templates/modalitylist_template.xml" />
-        <context-provider class="dk.rn.modalitylist.ModalitylistContextProvider"/>
+        <!-- <context-provider class="dk.rn.modalitylist.ModalitylistContextProvider"/> -->
     </content-template>
-    
+
     <!-- Add to the Create Menu -->
-    <web-item key="create-by-sample-template" i18n-name-key="my.create-link.title"
+    <web-item key="create-by-sample-template" i18n-name-key="modalitylist.create-link.title"
         section="system.create.dialog/content">
-        <description key="my.create-link.description" />
+        <description key="modalitylist.create-link.description" />
         <resource name="icon" type="download" location="/images/myblueprint.png" />
         <param name="blueprintKey" value="modalitylist-blueprint" />
     </web-item>
