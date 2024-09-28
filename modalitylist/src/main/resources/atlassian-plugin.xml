@@ -8,17 +8,35 @@
     </plugin-info>
 
     <!-- add our i18n resource -->
-    <resource type="i18n" name="i18n" location="modalitylist"/>
-    
+    <resource type="i18n" name="i18n" location="modalitylist" />
+
     <!-- add our web resources -->
     <web-resource key="modalitylist-resources" name="modalitylist Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
-        
-        <resource type="download" name="modalitylist.css" location="/css/modalitylist.css"/>
-        <resource type="download" name="modalitylist.js" location="/js/modalitylist.js"/>
-        <resource type="download" name="images/" location="/images"/>
+
+        <resource type="download" name="modalitylist.css" location="/css/modalitylist.css" />
+        <resource type="download" name="modalitylist.js" location="/js/modalitylist.js" />
+        <resource type="download" name="images/" location="/images" />
 
         <context>modalitylist</context>
     </web-resource>
     
+    <!-- Blueprint -->
+    <blueprint key="modalitylist-blueprint" content-template-key="modalitylist-template" index-key="modalitet"
+        i18n-name-key="my.blueprint.name" />
+
+    <!-- Template for Blueprint -->
+    <content-template key="modalitylist-template" i18n-name-key="my.blueprint.title">
+        <resource name="template" type="download" location="/templates/modalitylist_template.xml" />
+    </content-template>
+    
+    <!-- Add to the Create Menu -->
+    <web-item key="create-by-sample-template" i18n-name-key="my.create-link.title"
+        section="system.create.dialog/content">
+        <description key="my.create-link.description" />
+        <resource name="icon" type="download" location="/images/myblueprint.png" />
+        <param name="blueprintKey" value="modalitylist-blueprint" />
+    </web-item>
+
+
 </atlassian-plugin>
