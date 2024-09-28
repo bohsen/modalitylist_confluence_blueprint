@@ -28,6 +28,7 @@
     <!-- Template for Blueprint -->
     <content-template key="modalitylist-template" i18n-name-key="my.blueprint.title">
         <resource name="template" type="download" location="/templates/modalitylist_template.xml" />
+        <context-provider class="dk.rn.modalitylist.ModalitylistContextProvider"/>
     </content-template>
     
     <!-- Add to the Create Menu -->

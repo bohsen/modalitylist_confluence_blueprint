@@ -10,10 +10,10 @@
         </tr>
         <tr>
             <td>
-                <span style="color: rgb(23,43,77);">Enter your name here.</span>
+                <span style="color: rgb(23,43,77);"><at:var at:name="vName"/></span>
             </td>
             <td>
-                <span style="color: rgb(23,43,77);">Enter today's date here.</span>
+                <span style="color: rgb(23,43,77);"><ac:placeholder>Enter today's date here</ac:placeholder></span>
             </td>
         </tr>
     </tbody>
