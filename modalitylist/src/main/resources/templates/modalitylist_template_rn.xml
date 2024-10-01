@@ -1,0 +1,246 @@
+<ac:structured-macro ac:name="details" ac:schema-version="1"
+    ac:macro-id="da762eb5-226d-4f68-8164-a364bb98f361"><ac:rich-text-body><ac:structured-macro ac:name="panel"
+            ac:schema-version="1" ac:macro-id="4f65d710-4146-4ad8-bdd0-8e9b6fa84899">
+            <ac:parameter ac:name="title">Modalitetsoplysninger</ac:parameter><ac:rich-text-body>
+                <table class="relative-table wrapped" style="width: 53.2801%;">
+                    <colgroup class="">
+                        <col class="" style="width: 32.2827%;" />
+                        <col class="" style="width: 67.7435%;" />
+                    </colgroup>
+                    <tbody class="">
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey">
+                                <p title=""><strong>Leverandør repræsentant - udfyldt af:</strong></p>
+                            </th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p><br /></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Leverandør</strong>
+                            </th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p>Christian.Claydon-Smith@stab.rm.dk</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Udstyrets
+                                    producent</strong></th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p>Christian.Claydon-Smith@stab.rm.dk</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Udstyrets navn og
+                                    model</strong></th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p>(sundhedsdatanet adresse)</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">AE Titel</strong></th>
+                            <td><at:var at:name="title"/></td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">Modalitetstype</strong></th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p><br /></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong
+                                    title="">Operativsystem</strong></th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p>
+                                        <ac:placeholder>f.eks. Microsoft Windows 7, 8, 10, 11, ... </ac:placeholder>
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Netkort
+                                    type</strong></th>
+                            <td>
+                                <ac:placeholder>f.eks. 1Gbit Eth,Trådløs a/b/g/n/ac </ac:placeholder>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">IP-adresse</strong></th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p>195.80.249.11</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">Port</strong></th>
+                            <td>
+                                <div class="content-wrapper">
+                                    <p>104</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">C-STORE</strong></th>
+                            <td><ac:task-list>
+                                    <ac:task>
+                                        <ac:task-id>282</ac:task-id>
+                                        <ac:task-status>complete</ac:task-status>
+                                        <ac:task-body>
+                                            <ac:placeholder>Skal udstyret kunne sende undersøgelser i VNA/PACS
+                                            </ac:placeholder>
+                                        </ac:task-body>
+                                    </ac:task>
+                                </ac:task-list></td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">C-FIND</strong></th>
+                            <td><ac:task-list>
+                                    <ac:task>
+                                        <ac:task-id>283</ac:task-id>
+                                        <ac:task-status>incomplete</ac:task-status>
+                                        <ac:task-body>
+                                            <ac:placeholder>Skal udstyret kunne lave opslag i VNA/PACS </ac:placeholder>
+                                        </ac:task-body>
+                                    </ac:task>
+                                </ac:task-list></td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">C-MOVE</strong>
+                            </th>
+                            <td><ac:task-list>
+                                    <ac:task>
+                                        <ac:task-id>284</ac:task-id>
+                                        <ac:task-status>incomplete</ac:task-status>
+                                        <ac:task-body>
+                                            <ac:placeholder>Skal udstyret kunne hente undersøgelser fra VNA/PACS
+                                            </ac:placeholder>
+                                        </ac:task-body>
+                                    </ac:task>
+                                </ac:task-list></td>
+                        </tr>
+                        <tr class="">
+                            <th><strong title="">DCM MWL</strong></th>
+                            <td><ac:task-list>
+                                    <ac:task>
+                                        <ac:task-id>285</ac:task-id>
+                                        <ac:task-status>incomplete</ac:task-status>
+                                        <ac:task-body>
+                                            <ac:placeholder>Skal udstyret kunne hente patientoplysninger ind vha. DICOM Worklist </ac:placeholder>
+                                        </ac:task-body>
+                                    </ac:task>
+                                </ac:task-list></td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Hvis VPN – lev. VPN
+                                    username</strong></th>
+                            <td><br /></td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Hvis VPN - RN ip
+                                    adresse på VPN</strong></th>
+                            <td><br /></td>
+                        </tr>
+                        <tr class="">
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong
+                                    title="">Bemærkninger</strong></th>
+                            <td><br /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </ac:rich-text-body>
+        </ac:structured-macro>
+        <ac:structured-macro ac:name="panel" ac:schema-version="1"
+            ac:macro-id="31b1fb4d-693f-4c78-a013-f72d012e8e26">
+            <ac:parameter ac:name="borderColor">#91c89c</ac:parameter>
+            <ac:parameter ac:name="bgColor">#f3f9f4</ac:parameter>
+            <ac:parameter ac:name="title"> Lokationsoplysninger</ac:parameter><ac:rich-text-body>
+                <table class="relative-table wrapped" style="width: 47.8608%;">
+                    <tbody class="">
+                        <tr class="">
+                            <th style="width: 44.3229%;">RN repræsentant/modalitets ansvarlig: </th>
+                            <td style="width: 55.6829%;">
+                                <div class="content-wrapper">
+                                    <p>Region Midt - EI-Core PACS</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th style="width: 44.3229%;">Hospital</th>
+                            <td style="width: 55.6829%;">Århus</td>
+                        </tr>
+                        <tr class="">
+                            <th style="width: 44.3229%;">Afdeling</th>
+                            <td style="width: 55.6829%;">
+                                <div class="content-wrapper">
+                                    <p><br /></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th style="width: 44.3229%;">Fysisk placering / rum</th>
+                            <td style="width: 55.6829%;">
+                                <div class="content-wrapper">
+                                    <p><br /></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th style="width: 44.3229%;">RN modalitets mærkning</th>
+                            <td style="width: 55.6829%;">
+                                <ac:placeholder>Mærkning fra teknisk afdeling </ac:placeholder>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th style="width: 44.3229%;">Væg netstik nummer</th>
+                            <td style="width: 55.6829%;">
+                                <ac:placeholder>Fremgår af label på netstik udstyret tilkobles - gælder ikke trådløst
+                                    udstyr </ac:placeholder>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th style="width: 44.3229%;">Opsætnings dato</th>
+                            <td style="width: 55.6829%;">
+                                <div class="content-wrapper">
+                                    <p><br /></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="width: 44.3229%;">Mobil enhed</th>
+                            <td style="width: 55.6829%;">
+                                <div class="content-wrapper"><ac:task-list>
+                                        <ac:task>
+                                            <ac:task-id>281</ac:task-id>
+                                            <ac:task-status>incomplete</ac:task-status>
+                                            <ac:task-body> </ac:task-body>
+                                        </ac:task>
+                                    </ac:task-list></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </ac:rich-text-body>
+        </ac:structured-macro>
+        <p><br /></p>
+    </ac:rich-text-body>
+</ac:structured-macro>
+<h2>Dokumentation</h2>
+<p>Her kan der vedhæftes dokumenter, f.eks. DICOM Conformance Statement samt andre specifikationsdokumenter eller
+    manualer</p>
+<p><ac:structured-macro ac:name="attachments" ac:schema-version="1"
+        ac:macro-id="13e39a34-6a7e-4142-baf0-9d11711898c3" /></p>
+<p><br /></p>
+<p><ac:structured-macro ac:name="change-history" ac:schema-version="1"
+        ac:macro-id="b7016eca-4f79-405f-ba22-ab3eaa05b630" /></p>

@@ -120,7 +120,7 @@
         <confluence.version>8.5.4</confluence.version>
         <confluence.data.version>8.5.4</confluence.data.version>
         <create.content.version>16.1.0</create.content.version>
-        <amps.version>9.1.1</amps.version>
+        <amps.version>9.1.4</amps.version>
         <plugin.testrunner.version>2.0.9</plugin.testrunner.version>
         <osgi.javaconfig.version>0.2.0</osgi.javaconfig.version>
         <spring.version>4.2.5.RELEASE</spring.version>
