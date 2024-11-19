@@ -1,18 +1,119 @@
 {namespace ModalityList.Blueprints.Form}
 /**
-* A form that accepts a person's name
+* A form that accepts Company info for a modality
 */
 {template .page1Form}
     <form action="#" method="post" class="aui">
       <fieldset>
         <div class="field-group">
-            <label for="title">{getText('modalitylist.blueprint.form.label.title.vName')}</label>
-            <input id="test" class="text" type="text" name="title">
+            <label for="title">Navn og model</label>
+            <input id="namemodel" class="text" type="text" name="title">
         </div>
         <div class="field-group">
-            <label for="author">Forfatter:</label>
-            <input id="author" class="text" type="text" name="author">
+            <label for="producer">Producent</label>
+            <input id="producer" class="text" type="text" name="producer">
         </div>
+
+        <legend><span>Leverandør</span></legend>
+        <div class="field-group">
+          <label for="suplier">Leverandør</label>
+          <textarea class="textarea" name="suplier" id="suplier" placeholder="Firma, navn, telefon, mail"></textarea>
+        </div>
+      </fieldset>
+    </form>
+{/template}
+
+/**
+* A form that accepts hospital info for a modality
+*/
+{template .page2Form}
+    <form action="#" method="post" class="aui">
+      <fieldset>
+        
+        <div class="field-group">
+          <label for="lokation">Hospital</label>
+          <select class="select" id="lokation" name="lokation">
+            <option value="AUH Syd">AUH Syd</option>
+            <option value="AUH Nord">AUH Nord</option>
+            <option value="Hospitalsbyen">Hospitalsbyen</option>
+            <option value="Hjørring">Hjørring</option>
+            <option value="Frederiskhavn">Frederiskhavn</option>
+            <option value="Farsø">Farsø</option>
+            <option value="Hobro">Hobro</option>
+            <option value="Thisted">Thisted</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="title">Afdeling</label>
+          <input id="department" class="text" type="text" name="department">
+        </div>
+
+        <div class="field-group">
+            <label for="author">Rum nr.</label>
+            <input id="roomnumber" class="text" type="text" name="roomnumber">
+        </div>
+      </fieldset>
+    </form>
+{/template}
+
+/**
+* A form that accepts hospital info for a modality
+*/
+{template .page3Form}
+    <form action="#" method="post" class="aui">
+      <fieldset>
+        
+        <div class="field-group">
+            <label for="hostname">Hostnavn (evt. IP-adresse)</label>
+            <input id="hostname" class="text" type="text" name="hostname">
+        </div>
+
+        <div class="field-group">
+            <label for="port">Portnummer</label>
+            <input id="port" class="text" type="text" name="port">
+        </div>
+
+        <div class="field-group">
+          <label for="modalitetstype">Modalitetstype</label>
+          <select class="select" id="modalitetstype" name="modalitetstype">
+            <option value="CR">CR</option>
+            <option value="DX">DX</option>
+            <option value="CT">CT</option>
+            <option value="MR">MR</option>
+            <option value="US">US</option>
+            <option value="NM">NM</option>
+            <option value="OT">OT</option>
+            <option value="SC">SC</option>
+            <option value="XA">XA</option>
+            <option value="RF">RF</option>
+            <option value="WS">WS</option>
+            <option value="MG">MG</option>
+            <option value="DR">DR</option>
+            <option value="PT">PT</option>
+          </select>
+        </div>
+        <fieldset class="group">
+          <legend><span>DICOM Understøttelse</span></legend>
+          <div class="checkbox">
+            <input class="checkbox" type="checkbox" name="cstore" id="cstore">
+            <label for="cstore">DICOM C-STORE</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox" type="checkbox" name="cfind" id="cfind">
+            <label for="cfind">DICOM C-FIND</label>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox" type="checkbox" name="dcmwl" id="dcmwl">
+            <label for="dcmwl">DICOM MWL</label>
+          </div>
+        </fieldset>
+        <fieldset class="group">
+          <div class="field-group">
+            <label for="upload-dicom-conformance">DICOM Conformancestatement</label>
+            <input class="upfile" type="file" id="dicom-conformance" name="dicom-conformance">
+          </div>
+        </fieldset>
       </fieldset>
     </form>
 {/template}

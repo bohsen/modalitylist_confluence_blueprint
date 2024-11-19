@@ -23,25 +23,24 @@
                             </th>
                             <td>
                                 <div class="content-wrapper">
-                                    <p>Christian.Claydon-Smith@stab.rm.dk</p>
+                                    <p><at:var at:name="suplier"/></p>
                                 </div>
                             </td>
                         </tr>
                         <tr class="">
-                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Udstyrets
-                                    producent</strong></th>
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Producent</strong></th>
                             <td>
                                 <div class="content-wrapper">
-                                    <p>Christian.Claydon-Smith@stab.rm.dk</p>
+                                    <p><at:var at:name="producent"/></p>
                                 </div>
                             </td>
                         </tr>
                         <tr class="">
-                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Udstyrets navn og
+                            <th class="highlight-grey" data-highlight-colour="grey"><strong title="">Navn og
                                     model</strong></th>
                             <td>
                                 <div class="content-wrapper">
-                                    <p>(sundhedsdatanet adresse)</p>
+                                    <p><at:var at:name="namemodel"/></p>
                                 </div>
                             </td>
                         </tr>
@@ -53,7 +52,7 @@
                             <th><strong title="">Modalitetstype</strong></th>
                             <td>
                                 <div class="content-wrapper">
-                                    <p><br /></p>
+                                    <p><at:var at:name="modalitetstype"/><br /></p>
                                 </div>
                             </td>
                         </tr>
@@ -79,7 +78,7 @@
                             <th><strong title="">IP-adresse</strong></th>
                             <td>
                                 <div class="content-wrapper">
-                                    <p>195.80.249.11</p>
+                                    <p><at:var at:name="hostname"/></p>
                                 </div>
                             </td>
                         </tr>
@@ -87,7 +86,7 @@
                             <th><strong title="">Port</strong></th>
                             <td>
                                 <div class="content-wrapper">
-                                    <p>104</p>
+                                    <p><at:var at:name="port"/></p>
                                 </div>
                             </td>
                         </tr>
@@ -172,19 +171,19 @@
                             <th style="width: 44.3229%;">RN repræsentant/modalitets ansvarlig: </th>
                             <td style="width: 55.6829%;">
                                 <div class="content-wrapper">
-                                    <p>Region Midt - EI-Core PACS</p>
+                                    <p></p>
                                 </div>
                             </td>
                         </tr>
                         <tr class="">
                             <th style="width: 44.3229%;">Hospital</th>
-                            <td style="width: 55.6829%;">Århus</td>
+                            <td style="width: 55.6829%;"><at:var at:name="lokation"/></td>
                         </tr>
                         <tr class="">
                             <th style="width: 44.3229%;">Afdeling</th>
                             <td style="width: 55.6829%;">
                                 <div class="content-wrapper">
-                                    <p><br /></p>
+                                    <p><at:var at:name="department"/><br /></p>
                                 </div>
                             </td>
                         </tr>
@@ -192,7 +191,7 @@
                             <th style="width: 44.3229%;">Fysisk placering / rum</th>
                             <td style="width: 55.6829%;">
                                 <div class="content-wrapper">
-                                    <p><br /></p>
+                                    <p><at:var at:name="roomnumber"/><br /></p>
                                 </div>
                             </td>
                         </tr>
