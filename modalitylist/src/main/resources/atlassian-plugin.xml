@@ -41,6 +41,18 @@
                 title-key="modalitylist.blueprint.wizard.page1.title"
                 description-header-key="modalitylist.blueprint.wizard.page1.desc.header"
                 description-content-key="modalitylist.blueprint.wizard.page1.desc.content"
+                last="false" />
+            <dialog-page id="page2Id"
+                template-key="ModalityList.Blueprints.Form.page2Form"
+                title-key="modalitylist.blueprint.wizard.page2.title"
+                description-header-key="modalitylist.blueprint.wizard.page1.desc.header"
+                description-content-key="modalitylist.blueprint.wizard.page1.desc.content"
+                last="false" />
+            <dialog-page id="page3Id"
+                template-key="ModalityList.Blueprints.Form.page3Form"
+                title-key="modalitylist.blueprint.wizard.page3.title"
+                description-header-key="modalitylist.blueprint.wizard.page1.desc.header"
+                description-content-key="modalitylist.blueprint.wizard.page1.desc.content"
                 last="true" />
         </dialog-wizard>
     </blueprint>
@@ -51,7 +63,9 @@
         <!-- <context-provider class="dk.rn.modalitylist.ModalitylistContextProvider"/> -->
     </content-template>
 
-    <!-- Add to the Create Menu -->
+    <!-- Nedenstående tilføjer blueprintet til Confluences 
+     Opret-menu, så det fremgår som valgmulighed med et ikon, en titel
+      og en beskrivelse  -->
     <web-item key="create-by-sample-template" i18n-name-key="modalitylist.create-link.title"
         section="system.create.dialog/content">
         <description key="modalitylist.create-link.description" />

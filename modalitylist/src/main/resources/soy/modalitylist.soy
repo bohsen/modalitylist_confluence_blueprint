@@ -1,6 +1,6 @@
 {namespace ModalityList.Blueprints.Form}
 /**
-* A form that accepts a person's name
+* A form that accepts Company info for a modality
 */
 {template .page1Form}
     <form action="#" method="post" class="aui">
@@ -12,6 +12,66 @@
         <div class="field-group">
             <label for="author">Forfatter:</label>
             <input id="author" class="text" type="text" name="author">
+        </div>
+      </fieldset>
+    </form>
+{/template}
+
+/**
+* A form that accepts hospital info for a modality
+*/
+{template .page2Form}
+    <form action="#" method="post" class="aui">
+      <fieldset>
+        <div class="field-group">
+          <label for="title">{getText('modalitylist.blueprint.form.label.title.vName')}</label>
+          <input id="test" class="text" type="text" name="title">
+        </div>
+        <div class="field-group">
+          <label for="lokation">Hospital</label>
+          <select class="select" id="lokation" name="lokation">
+            <option value="ASS">AUH Syd</option>
+            <option value="ASN">AUH Nord</option>
+            <option value="NAU">NAU</option>
+            <option value="HJR">Hjørring</option>
+            <option value="FRH">Frederiskhavn</option>
+            <option value="FAR">Farsø</option>
+            <option value="Hobro">Hobro</option>
+          </select>
+        </div>
+        <div class="field-group">
+            <label for="author">Forfatter:</label>
+            <input id="author" class="text" type="text" name="author">
+        </div>
+      </fieldset>
+    </form>
+{/template}
+
+/**
+* A form that accepts DICOM info for a modality
+*/
+{template .page3Form}
+    <form action="#" method="post" class="aui">
+      <fieldset class="group">
+        <legend><span>Description of the set of checkboxes</span></legend>
+        <div class="checkbox">
+          <input class="checkbox" type="checkbox" name="cstore" id="cstore">
+          <label for="cstore">DICOM C-STORE</label>
+        </div>
+        <div class="checkbox">
+          <input class="checkbox" type="checkbox" name="cfind" id="cfind">
+          <label for="cfind">DICOM C-FIND</label>
+        </div>
+        <div class="checkbox">
+          <input class="checkbox" type="checkbox" name="dcmwl" id="dcmwl">
+          <label for="dcmwl">DICOM MWL</label>
+        </div>
+      </fieldset>
+      <fieldset class="group">
+        <legend><span>DICOM Conformancestatement</span></legend>
+        <div class="field-group">
+            <label for="upload-dicom-conformance">Upload fil</label>
+            <input class="upfile" type="file" id="upload-dicom-conformance" name="upload-dicom-conformance">
         </div>
       </fieldset>
     </form>
